@@ -697,3 +697,4 @@ JOIN directors d
 ON d.id = dc.director_id
 GROUP BY d.name
 ORDER BY "films_directed" DESC, d.name ASC;
+
